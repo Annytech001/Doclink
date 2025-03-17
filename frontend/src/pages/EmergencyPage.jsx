@@ -7,7 +7,7 @@ const EmergencyPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-red-100 text-center p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-sky-800 text-center p-6">
       <div className="bg-white shadow-lg rounded-2xl p-8 max-w-lg w-full">
         <h1 className="text-3xl font-bold text-red-600">🚨 Emergency Alert!</h1>
         <p className="text-gray-700 mt-3">
@@ -17,7 +17,7 @@ const EmergencyPage = () => {
         <div className="mt-6 flex justify-center">
           <button
             onClick={handleBooking}
-            className="bg-red-600 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-red-700 transition-all"
+            className="bg-red-600 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-sky-600 transition-all"
           >
             🚑 Book Now
           </button>
