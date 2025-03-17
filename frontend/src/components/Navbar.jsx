@@ -1,7 +1,8 @@
-import React, { useContext, useState } from "react";
-import { assets } from "../assets/assets";
-import { NavLink, useNavigate } from "react-router-dom";
-import { AppContext } from "../context/AppContext";
+// eslint-disable-next-line no-unused-vars
+import React, { useContext, useState } from 'react'
+import { assets } from '../assets/assets'
+import { NavLink, useNavigate } from 'react-router-dom'
+import { AppContext } from '../context/AppContext'
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -40,10 +41,13 @@ const Navbar = () => {
           <li className="py-1">ABOUT</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
-        <NavLink to="/contact">
-          <li className="py-1">CONTACT</li>
-          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
+
+        
+        <NavLink to='/contact' >
+          <li className='py-1'>CONTACT</li>
+          <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
+
       </ul>
 
       <div className="flex items-center gap-4 ">
@@ -101,6 +105,7 @@ const Navbar = () => {
               alt=""
             />
           </div>
+
           <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
             <NavLink onClick={() => setShowMenu(false)} to="/">
               <p className="px-4 py-2 rounded full inline-block">HOME</p>
@@ -117,6 +122,7 @@ const Navbar = () => {
             <NavLink onClick={() => setShowMenu(false)} to="/contact">
               <p className="px-4 py-2 rounded full inline-block">CONTACT</p>
             </NavLink>
+
           </ul>
         </div>
       </div>

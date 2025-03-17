@@ -4,7 +4,11 @@ import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
 import about_image from './about_image.png'
+
+import aboutus from './aboutus.jpg'
+
 import logo from './logo.svg'
+
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
@@ -30,12 +34,12 @@ import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
 import doc15 from './doc15.png'
-import Dermatologist from './Dermatologist.svg'
-import Gastroenterologist from './Gastroenterologist.svg'
-import General_physician from './General_physician.svg'
-import Gynecologist from './Gynecologist.svg'
-import Neurologist from './Neurologist.svg'
-import Pediatricians from './Pediatricians.svg'
+import Dermatologist from './Dermatologist.jpg'
+import Gastroenterologist from './Gastroenterologist.jpg'
+import General_physician from './General_physician.jpg'
+import Gynecologist from './Gynecologist.jpg'
+import Neurologist from './Neurologist.jpg'
+import Pediatricians from './Pediatricians.jpg'
 
 
 export const assets = {
@@ -50,7 +54,9 @@ export const assets = {
     arrow_icon,
     contact_image,
     about_image,
+    aboutus,
     menu_icon,
+
     cross_icon,
     dropdown_icon,
     upload_icon,
