@@ -35,6 +35,10 @@ const App = () => {
           <Route path='/doctor-dashboard' element={<DoctorDashboard />} />
           <Route path='/doctor-appointments' element={<DoctorAppointments />} />
           <Route path='/doctor-profile' element={<DoctorProfile />} />
+<<<<<<< HEAD
+=======
+          
+>>>>>>> 36e0e32 (fetch-new emergency)
         </Routes>
       </div>
     </div>

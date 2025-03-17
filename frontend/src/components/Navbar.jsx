@@ -32,7 +32,11 @@ const Navbar = () => {
           <li className="py-1">ALL DOCTORS</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
+<<<<<<< HEAD
         <NavLink to="/emergency">
+=======
+        <NavLink to="/emergencyPage">
+>>>>>>> 36e0e32 (fetch-new emergency)
           <li className="py-1">EMERGENCY</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
