@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useContext, useState } from 'react'
 import { assets } from '../assets/assets'
 import { NavLink, useNavigate } from 'react-router-dom'
@@ -18,8 +19,8 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-[#ADADAD]'>
-      <img onClick={() => navigate('/')} className='w-44 cursor-pointer' src={assets.logo} alt="" />
-      <ul className='md:flex items-start gap-5 font-medium hidden'>
+      <img onClick={() => navigate('/')} className='w-24 cursor-pointer' src={assets.logo} alt="logoimage" />
+      <ul className='md:flex items-start gap-3 font-medium hidden'>
         <NavLink to='/' >
           <li className='py-1'>HOME</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
@@ -33,9 +34,14 @@ const Navbar = () => {
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
         <NavLink to='/contact' >
+          <li className='py-1'>HOSPITAL</li>
+          <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
+        </NavLink>
+        <NavLink to='/contact' >
           <li className='py-1'>CONTACT</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
+
       </ul>
 
       <div className='flex items-center gap-4 '>
@@ -66,7 +72,9 @@ const Navbar = () => {
             <NavLink onClick={() => setShowMenu(false)} to='/'><p className='px-4 py-2 rounded full inline-block'>HOME</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/doctors' ><p className='px-4 py-2 rounded full inline-block'>ALL DOCTORS</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/about' ><p className='px-4 py-2 rounded full inline-block'>ABOUT</p></NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to='/contact' ><p className='px-4 py-2 rounded full inline-block'>HOSPITAL</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/contact' ><p className='px-4 py-2 rounded full inline-block'>CONTACT</p></NavLink>
+
           </ul>
         </div>
       </div>
