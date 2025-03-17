@@ -7,7 +7,7 @@ import about_image from './about_image.png'
 
 import aboutus from './aboutus.jpg'
 
-import logo from './logo.svg'
+import logo from './logo.png'
 
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
