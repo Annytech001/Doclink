@@ -4,6 +4,8 @@ import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
 import about_image from './about_image.png'
+import aboutus from './aboutus.jpg'
+
 import logo from './logo.svg'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
@@ -50,7 +52,9 @@ export const assets = {
     arrow_icon,
     contact_image,
     about_image,
+    aboutus,
     menu_icon,
+
     cross_icon,
     dropdown_icon,
     upload_icon,

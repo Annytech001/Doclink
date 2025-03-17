@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { assets } from '../assets/assets'
 
@@ -10,12 +11,15 @@ const About = () => {
       </div>
 
       <div className='my-10 flex flex-col md:flex-row gap-12'>
-        <img className='w-full md:max-w-[360px]' src={assets.about_image} alt="" />
+        <img className='w-full md:max-w-[360px]' src={assets.aboutus} alt="" />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600'>
-          <p>Welcome to Prescripto, your trusted partner in managing your healthcare needs conveniently and efficiently. At Prescripto, we understand the challenges individuals face when it comes to scheduling doctor appointments and managing their health records.</p>
-          <p>Prescripto is committed to excellence in healthcare technology. We continuously strive to enhance our platform, integrating the latest advancements to improve user experience and deliver superior service. Whether you're booking your first appointment or managing ongoing care, Prescripto is here to support you every step of the way.</p>
+          <p>At DocLink, we make it easy for patients to connect with trusted doctors anytime, anywhere. Whether you need a quick consultation, a specialist appointment, or routine healthcare, 
+          our platform ensures that quality medical care is just a click away</p>
+          <p>We understand the challenges of finding the right doctor, scheduling appointments, and accessing healthcare when you need it most. That’s why DocLink is built to simplify the process—bringing doctors and patients together in a seamless, efficient, 
+          and secure way.</p>
           <b className='text-gray-800'>Our Vision</b>
-          <p>Our vision at Prescripto is to create a seamless healthcare experience for every user. We aim to bridge the gap between patients and healthcare providers, making it easier for you to access the care you need, when you need it.</p>
+          <p>Our vision at Doclink is to make healthcare more accessible and convenient for everyone. With a diverse network of verified medical professionals, personalized search options, and secure communication features, 
+          we are transforming the way healthcare works.</p>
         </div>
       </div>
 
