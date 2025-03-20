@@ -1,5 +1,5 @@
 import add_icon from './add_icon.svg'
-import admin_logo from './admin_logo.svg'
+import admin_logo from './newlogo.png'
 import appointment_icon from './appointment_icon.svg'
 import cancel_icon from './cancel_icon.svg'
 import doctor_icon from './doctor_icon.svg'
@@ -11,6 +11,8 @@ import tick_icon from './tick_icon.svg'
 import appointments_icon from './appointments_icon.svg'
 import earning_icon from './earning_icon.svg'
 import patients_icon from './patients_icon.svg'
+
+export const url = "https://doclink-backend-uta9.onrender.com"
 
 export const assets = {
     add_icon,
